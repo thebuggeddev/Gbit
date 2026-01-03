@@ -98,7 +98,7 @@ const App = () => {
     let unit = '';
     if (category === GoalCategory.LEARNING) unit = 'lessons';
     else if (category === GoalCategory.BOOK) unit = 'chapters';
-    else if (category === GoalCategory.MONEY) unit = 'INR';
+    else if (category === GoalCategory.MONEY) unit = 'USD';
 
     const newGoal: Goal = {
       id: crypto.randomUUID(),
